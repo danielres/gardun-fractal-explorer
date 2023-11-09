@@ -46,8 +46,47 @@
   }}
 />
 
+<div class="mt-16">
+  <div class="w-fit mx-auto grid justify-items-center gap-2">
+    <div>
+      <button on:click={zoomOut}>-</button>
+      <button on:click={zoomIn}>+</button>
+    </div>
+
+    <div class="grid grid-cols-[auto_1fr_auto] items-center justify-items-center gap-2">
+      <div />
+
+      <div>
+        <button class="-rotate-90" on:click={up}><Chevron /></button>
+      </div>
+
+      <div />
+
+      <div>
+        <button class="rotate-180" on:click={left}><Chevron /></button>
+      </div>
+
+      <div style:width="{SIZE}px" style:height="{SIZE}px" class="border border-black">
+        <canvas class="bg-black/100" bind:this={canvasEl} width={SIZE} height={SIZE} />
+      </div>
+
+      <div>
+        <button on:click={right}><Chevron /></button>
+      </div>
+
+      <div />
+
+      <div>
+        <button class="rotate-90" on:click={down}><Chevron /></button>
+      </div>
+
+      <div />
+    </div>
+  </div>
+</div>
+
 <div
-  class="card grid grid-cols-[auto_auto] gap-x-2 gap-y-1 fixed variant-glass-surface right-8 mt-8 p-4 text-xs font-mono items-center"
+  class="card top-1/2 -translate-y-1/2 grid grid-cols-[auto_auto] gap-x-2 gap-y-1 fixed variant-glass-surface right-8 p-4 text-xs font-mono items-center"
 >
   <div class="text-right">x:</div>
   <div>{Math.floor(translateX * 1_000_000) / 1000}</div>
@@ -101,45 +140,6 @@
     </div>
     <div class="">{text}</div>
   {/each}
-</div>
-
-<div class="mt-16">
-  <div class="w-fit mx-auto grid justify-items-center gap-2">
-    <div>
-      <button on:click={zoomOut}>-</button>
-      <button on:click={zoomIn}>+</button>
-    </div>
-
-    <div class="grid grid-cols-[auto_1fr_auto] items-center justify-items-center gap-2">
-      <div />
-
-      <div>
-        <button class="-rotate-90" on:click={up}><Chevron /></button>
-      </div>
-
-      <div />
-
-      <div>
-        <button class="rotate-180" on:click={left}><Chevron /></button>
-      </div>
-
-      <div>
-        <canvas class="bg-black/100" bind:this={canvasEl} width={SIZE} height={SIZE} />
-      </div>
-
-      <div>
-        <button on:click={right}><Chevron /></button>
-      </div>
-
-      <div />
-
-      <div>
-        <button class="rotate-90" on:click={down}><Chevron /></button>
-      </div>
-
-      <div />
-    </div>
-  </div>
 </div>
 
 <style lang="postcss">
