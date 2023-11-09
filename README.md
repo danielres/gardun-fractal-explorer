@@ -1,14 +1,16 @@
 # Gardun Fractal Explorer
 
-Inspired by the epic video "[Create a Universe From a Simple Rule - Simulation Hypothesis](https://youtu.be/mzizK6ms-gY?si=MqeWq0y1i-F9Qqb0)" by [Brainxyz](https://www.youtube.com/@brainxyz) aka Hunar Ahmad, I decided to create a more elaborate fractal explorer in SvelteKit.
+Inspired by the epic video **[Create a Universe From a Simple Rule - Simulation Hypothesis](https://youtu.be/mzizK6ms-gY?si=MqeWq0y1i-F9Qqb0)** by [Brainxyz](https://www.youtube.com/@brainxyz) aka Hunar Ahmad, I decided to create a more elaborate fractal explorer in SvelteKit.
 
 The original code from Hunar can be found here: [@hunar4321/mandelbrot](https://github.com/hunar4321/mandelbrot)
 
+## Online demo
+
+👉 **https://gardun-fractal-explorer.vercel.app**
+
 ## Screenshots
 
-<img src="https://danielres.github.io/gardun-fractal-explorer/screenshots/001.png" alt="Screenshot" style="max-width: 100%; width: 250px">
-<img src="https://danielres.github.io/gardun-fractal-explorer/screenshots/002.png" alt="Screenshot" style="max-width: 100%; width: 250px">
-<img src="https://danielres.github.io/gardun-fractal-explorer/screenshots/003.png" alt="Screenshot" style="max-width: 100%; width: 250px">
+<img src="https://danielres.github.io/gardun-fractal-explorer/screenshots/001.png" alt="Screenshot" style="max-width: 100%; width: 250px"><img src="https://danielres.github.io/gardun-fractal-explorer/screenshots/002.png" alt="Screenshot" style="max-width: 100%; width: 250px"><img src="https://danielres.github.io/gardun-fractal-explorer/screenshots/003.png" alt="Screenshot" style="max-width: 100%; width: 250px">
 
 ---
 
