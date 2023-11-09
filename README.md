@@ -1,3 +1,11 @@
+# Gardun Fractal Explorer
+
+Inspired by the epic video "[Create a Universe From a Simple Rule - Simulation Hypothesis](https://youtu.be/mzizK6ms-gY?si=MqeWq0y1i-F9Qqb0)" by [Brainxyz](https://www.youtube.com/@brainxyz) aka Hunar Ahmad, I decided to create a more elaborate fractal explorer in SvelteKit.
+
+The original code from Hunar can be found here: [@hunar4321/mandelbrot](https://github.com/hunar4321/mandelbrot)
+
+---
+
 # create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
