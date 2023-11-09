@@ -4,6 +4,14 @@ Inspired by the epic video "[Create a Universe From a Simple Rule - Simulation H
 
 The original code from Hunar can be found here: [@hunar4321/mandelbrot](https://github.com/hunar4321/mandelbrot)
 
+## Screenshots
+
+![Screenshot](https://danielres.github.io/gardun-fractal-explorer/screenshots/001.png)
+
+![Screenshot](https://danielres.github.io/gardun-fractal-explorer/screenshots/002.png)
+
+![Screenshot](https://danielres.github.io/gardun-fractal-explorer/screenshots/003.png)
+
 ---
 
 # create-svelte
