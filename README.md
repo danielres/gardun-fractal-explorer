@@ -6,11 +6,9 @@ The original code from Hunar can be found here: [@hunar4321/mandelbrot](https://
 
 ## Screenshots
 
-![Screenshot](https://danielres.github.io/gardun-fractal-explorer/screenshots/001.png)
-
-![Screenshot](https://danielres.github.io/gardun-fractal-explorer/screenshots/002.png)
-
-![Screenshot](https://danielres.github.io/gardun-fractal-explorer/screenshots/003.png)
+<img src="https://danielres.github.io/gardun-fractal-explorer/screenshots/001.png" alt="Screenshot" style="max-width: 100%; width: 250px">
+<img src="https://danielres.github.io/gardun-fractal-explorer/screenshots/002.png" alt="Screenshot" style="max-width: 100%; width: 250px">
+<img src="https://danielres.github.io/gardun-fractal-explorer/screenshots/003.png" alt="Screenshot" style="max-width: 100%; width: 250px">
 
 ---
 
