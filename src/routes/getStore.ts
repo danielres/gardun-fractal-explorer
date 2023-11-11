@@ -9,7 +9,7 @@ export const getStore = () => {
       translateX: 0.8,
       translateY: 0,
       zoom: 0.5,
-      hueShiftRate: 4,
+      hueShiftRate: -1,
       iterationsMultiplier: 2,
       luminanceMultiplier: 1,
     },
