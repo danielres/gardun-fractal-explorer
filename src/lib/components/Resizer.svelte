@@ -3,6 +3,7 @@
 
   export let centeredX = false
   export let centeredY = false
+  export let showHandle = true
 
   let _class = ''
   export { _class as class }
@@ -39,7 +40,7 @@
   }
 </script>
 
-<svelte:window on:mousemove={onMouseMove} on:mouseup={onMouseUp} />
+<svelte:window on:pointermove={onMouseMove} on:pointerup={onMouseUp} />
 
 <div class="stack {_class}" style:width="{width}px" style:height="{height}px">
   <div>
@@ -47,7 +48,8 @@
   </div>
 
   <button
-    on:mousedown={onMouseDown}
+    on:pointerdown={onMouseDown}
+    class:hidden={!showHandle}
     type="button"
     style:--size="20px"
     class="triangle place-self-end cursor-nw-resize opacity-20 hover:opacity-100 transition-opacity"
@@ -57,7 +59,7 @@
 <style lang="postcss">
   .triangle {
     --size: 40px;
-    --color: black;
+    --color: white;
     width: 0;
     height: 0;
     border-left: var(--size) solid transparent;
