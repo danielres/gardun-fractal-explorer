@@ -14,3 +14,10 @@ body {
   src: url('/fonts/SpaceGrotesk.ttf');
   font-display: swap;
 }
+
+.stack {
+  @apply grid;
+}
+.stack > * {
+  @apply col-start-1 col-end-1 row-start-1 row-end-1;
+}
